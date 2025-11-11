@@ -1,4 +1,8 @@
 /**
- * Grouping modes type definition
+ * Grouping modes and label map
  */
-export type GroupingMode = 'one-time' | 'smart' | 'aggressive';
+export const groupingModes = [
+  { value: 'one-time', label: 'One Time' },
+  { value: 'smart', label: 'Smart' },
+  { value: 'aggressive', label: 'Aggressive' },
+];
