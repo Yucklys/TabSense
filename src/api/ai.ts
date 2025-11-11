@@ -1,4 +1,4 @@
-import { getCustomPrompt, getCustomGroups, getTabRange } from './storage';
+import { getCustomPrompt, getCustomGroups, getTabRange } from './storage.ts';
 
 let globalSession: LanguageModel | null = null;
 

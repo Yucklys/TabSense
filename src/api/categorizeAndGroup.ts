@@ -1,5 +1,5 @@
-import { categorizeTabsBatch } from './ai';
-import { getTabInfoList, getTitleByIndex } from './tabs';
+import { categorizeTabsBatch } from './ai.ts';
+import { getTabInfoList, getTitleByIndex } from './tabs.ts';
 
 type Tab = chrome.tabs.Tab;
 
