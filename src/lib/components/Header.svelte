@@ -1,13 +1,6 @@
 <script lang="ts">
-  import { cn } from "$lib/utils";
   import * as Select from "$lib/components/ui/select/index";
   import { groupingModes } from "$type/groupingMode";
-
-  interface Props {
-    class?: string;
-  }
-
-  let { class: className = "" }: Props = $props();
 
   let selectedMode = $state("smart");
 
@@ -18,7 +11,7 @@
   );
 </script>
 
-<div class={cn("flex items-center justify-between", className)}>
+<div class="flex items-center justify-between">
   <div class="flex items-center gap-3">
     <!-- Tabit logo -->
     <div class="relative w-[19px] h-[19px]">
